@@ -1,0 +1,29 @@
+{
+  "name": "disturbed-mantis",
+  "version": "1.0.0",
+  "description": "Core Algorithms [Sorting, Searching, Graphing, Geometry] ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helenyau0/disturbed-mantis.git"
+  },
+  "author": "Helen Yau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helenyau0/disturbed-mantis/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.4",
+    "babel-register": "^6.18.0",
+    "chai": "~1.8.0",
+    "expect": "^1.20.2",
+    "mocha": "2.0.1"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  }
+}
