@@ -10,9 +10,9 @@ List of specifications (specs) for the completed goal. These are declarative sen
 
 This is a core goal. The specifications are non-negotiable. To complete this goal, you must complete all specs listed below.
 
-- [ ] Can run all tests with npm test.
+- [X] Can run all tests with npm test.
 - [ ] All tests are passing.
-- [ ] For each algorithm identified above, there exists:
+- [X] For each algorithm identified above, there exists:
 - [ ] a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] an implementation file with a correct implementation of the algorithm.
 
@@ -43,12 +43,7 @@ Do not remove these specs - they are required for all goals.
 
 
 ## Installation and Setup
-  - [ ] Must include in the package.json file: author, git repo, expect, the right version of npm, and MIT license.
-  - [ ] Install all dependencies in the terminal by entering the command "npm i". [50 points]
-  - [ ] Create two separate files for every given function: one for testing and the other to store code.
+  - [X] Must include in the package.json file: author, git repo, expect, the right version of npm, and MIT license.
+  - [X] Install all dependencies in the terminal by entering the command "npm i". [50 points]
+  - [X] Create two separate files for every given function: one for testing and the other to store code.
 
-## Usage and Examples
-
-Once you have all your dependencies installed ("npm i") you can start testing by entering in the terminal "npm test".
-
-If all working tests passed you will get all checks and number of passings in green:
