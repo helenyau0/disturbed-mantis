@@ -1,8 +1,6 @@
 export default function bubbleSort(data) {
-  let array = data.length
-
-  for(let i = 0; i < array; i++) {
-    for(let n = 0; n < array; n++) {
+  for(let i = 0; i < data.length; i++) {
+    for(let n = 0; n < data.length; n++) {
       if(data[i] < data[n]) {
         let temp = data[i]
         data[i] = data[n]
